@@ -18,7 +18,7 @@ public class InjectionTest extends RoboActivity {
 	@Inject CustomDependency5 customDependency5;
 	@InjectView(R.id.custom_view) TextView textView;
 	
-	Long start;
+	private Long start;
 	
 	public InjectionTest() {
 		start = System.currentTimeMillis();
